@@ -1,0 +1,74 @@
+/* Global styles */
+body {
+    color: #fff;
+}
+
+/* Gallery image styles */
+#image-gallery img,
+#image-gallery2 img {
+    width: calc(20% - 20px);
+    margin: 10px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #000; /* Full black color */
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+    background: transparent;
+    position: relative;
+    transition: 0.3s;
+}
+
+.navbar-toggler:hover:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    z-index: -1;
+    transition: left 0.3s;
+}
+
+.navbar-toggler:hover {
+    z-index: 1;
+}
+
+/* Center and style Rip Jakharia */
+/* ... (Other existing styles) */
+
+/* Style Rip Jakharia with Shadows Into Light font */
+.rip-font {
+    font-family: 'Shadows Into Light', cursive; /* Apply Shadows Into Light font */
+    font-size: 40px; /* Adjust the font size as needed */
+    text-align: center;
+    width: 100%;
+    color: #fff; /* Color set to white */
+    font-style: italic; /* Apply italic style */
+}
+
+
+/* Back button style */
+.btn {
+    transition: 0.3s;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* Footer styles */
+footer {
+    background-color: #000; /* Full black color */
+    color: #fff; /* Text color for the footer */
+    padding: 20px 0; /* Adjust padding as needed */
+}
